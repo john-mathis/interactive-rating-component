@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Rating Component</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- JavaScript -->
+  <script src="app.js" defer></script>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bungee&family=DM+Serif+Display&family=Overpass:wght@400;700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+  <section class="component__container before">
+    <div class="header__container first">
+      <img class="star__img" src="./images/icon-star.svg" alt="orange star">
+      <h2 class="header">How did we do?</h2>
+      <p class="heading">Please let us know how we did with your support request. All feedback is appreciated to help us
+        improve our offering!</p>
+      <p class="error__message">Please select a rating!</p>
+    </div>
+
+
+
+    <form class="rating__container">
+      <div class="rating one">
+        1
+      </div>
+      <div class="rating two">
+        2
+      </div>
+      <div class="rating three">
+        3
+      </div>
+      <div class="rating four">
+        4
+      </div>
+      <div class="rating five">
+        5
+      </div>
+    </form>
+
+    <div class="button__container">
+      <button class="submit__btn">Submit</button>
+    </div>
+
+  </section>
+
+
+
+
+
+  <section class="component__container after">
+    <div class="score__container">
+      <img src="./images/illustration-thank-you.svg" alt="">
+      <p class="score__display">You selected <span class="user__selection"></span> out of 5</p>
+    </div>
+
+    <div class="header__container second">
+      <h2 class="header">Thank you!</h2>
+      <p class="heading">We appreciate you taking the time to give a rating. If you ever need more support, don't
+        hesitate to get in touch!</p>
+    </div>
+
+  </section>
+
+
+
+</body>
+
+</html>
